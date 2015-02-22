@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+   <script type="text/javascript" src="lib/jquery-2.1.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="common.css">
+    <script type="text/javascript" src="lib/jquery.zclip.js"></script>
+    <script src="lib/jquery.snippet.min.js"></script>
+    <title>Bean Calss Creator</title>
+</head>
+<body>
+<h1>Bean Calss Creator</h1>
+<a href="#" onclick="window.open('help/help.html', 'help_window', 'width=700px, height=850px,top=100px,left=200px, menubar=no, toolbar=no, scrollbars=yes');"> help (使い方)</a><br>
+<table class="main-table">
+    <tr>
+        <td>
+            <br>
+            <input type="checkbox" id="option1Chk">&nbsp;SnakeChein ⇒ RowerCamelCase<br>
+            <textarea id="input-area" rows="30" cols="50"></textarea>
+        </td>
+        <td>
+            <input type="button" id="convert-button" value="convert &gt&gt">
+        </td>
+        <td>
+            <br>
+            <input type="button" id="copy-button" value="copy"><br>
+
+            <textarea id="result-area" rows="30" cols="50" readonly="readonly"></textarea>
+        </td>
+    </tr>
+</table>
+<script type="text/javascript" src="convert.js"></script>
+</body>
+</html>
